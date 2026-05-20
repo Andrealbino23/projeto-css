@@ -108,31 +108,58 @@ hr {
     font-size: 20px;
 
 }
+
 #regresso {
 
-display: flex;
-justify-content:space-around;
-align-items: center;
-gap: 15px;
-background-color: red;
-
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    background-color: red;
+    border-radius: 20px;
+    height: 25vh;
 }
+
 .iconis {
-background-color: green;
-border-radius: 20px;
-text-align: center;
+    background-color: green;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 30px;
 
 }
-  
+
 .textcards {
-background-color:blue;
-border-radius: 20px;
-text-align: center;
+    background-color: rgb(255, 204, 0);
+    border-radius: 0px;
+    align-items: center;
+    font-size: 15px;
 
 }
-.cards{
-display: flex;
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.number {
+    left: 50px;
+    background-color: aqua;
+    font-size: 25px;
+}
+
+#progresso {
+
+    display: flex;
+    background-color: purple;
+
+}
+
+.itenscentrais {
+    
+    background-color: beige;
+    margin-left:auto;
+    justify-content: left;
 
 }
